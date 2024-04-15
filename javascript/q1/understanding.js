@@ -11,3 +11,4 @@ console.log(m);
 const m=3;
 console.log(m);
 */
+// i have a error because m's value is const and unavailable to change it after we declare it ;

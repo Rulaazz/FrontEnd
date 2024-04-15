@@ -23,8 +23,6 @@ console.log(typeof emptyValue);
 let name = "rula";
 let num11 = 500;
 let x = null;
-/*onsole.log("rula is,typeof (name) $name");
-console.log("rule is " , name of name ,typepf(name));*/
 console.log(
     "'rula' is " + typeof "rula" 
     );
