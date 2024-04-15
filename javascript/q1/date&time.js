@@ -1,110 +1,41 @@
 //1
-let num1 = 8;
-let num2 = 15;
-let sum = num1 + num2;
-console.log(sum);
-
+const d = new Date();
+console.log(d);
 
 //2
-let a = 30;
-let b = 12;
-let sub = a - b ;
-console.log(sub);
+const y = new Date();
+console.log(y.getFullYear());
 
 //3
-let x = 7;
-let y = 3;
-let mul = x*y;
-console.log(mul);
+const date = new Date();
+console.log(date.getMonth());
 
 //4
-let dividend = 20;
-let divisor = 4 ;
-let div = dividend/divisor;
-console.log(div);
-let div2 = dividend%divisor;
-console.log(div2);
+const s = new Date();
+console.log(s.getDate());
 
 //5
-let numer1 =15;
-let numer2= 25;
-let numer3 =10;
-let avg = (numer1+ numer2+ numer3)/3 ;
-console.log(avg);
-
+const p = new Date();
+console.log(p.getDay());
 
 //6
-let k=20;
-console.log(k%3);
-/* the result is 2 that mean (2 is the number that remind after we divid 20 / 3)*/
+const date1 = new Date();
+console.log("Houres: " + date1.getHours() + " minutes: " + date1.getMinutes() + " seconds: " + date1.getSeconds());
 
 //7
-
-let n=11;
-let odd = n%2;
-if (odd == 1)
-{
-    console.log("odd number");
-}
-else 
-{
-    console.log("even number");
-}
-// i defined n = 11 to try it .
+const now = new Date();
+const numOfDays = new Date(now.getFullYear(), now.getMonth()+1, 0).getDate();
+console.log(numOfDays);
 
 //8
+const dayday = new Date();
+dayday.setDate(d.getDate() + 1);
+console.log(dayday);
 
-let l=35;
- if(l%5==0 && l%7==0)
- {
-    console.log("perfict number");
- }
- else 
- {
-    console.log("not perfict number");
- }
-
-
- //9
- let count =0;
- for( let i=1; i<=20; i++)
- {
-    if(i%4 == 0)
-    count+=i;
- }
- console.log(count);
-
- //10
-
-let q=15;
-if(q>10 && q<20)
-{
-    console.log("nice");
-}
-else console.log("not");
-
-//11
-let r=3;
-if(r>10 && r<(-5))
-{
-    console.log("nice");
-}
-else console.log("not");
-
-//12
-let boolean="fofo";
-
-if(!boolean)
-{
-    console.log("nice");
-}
-else console.log("not");
-
-//13
-
-let u=25;
-if((u>5 && u<10)|| (u>20 && u<30))
-{
-    console.log("nice");
-}
-else console.log("not");
+//9
+const totalinutes=90;
+let x=totalinutes/60;
+t=x%1;
+x=x-t;
+let y1=totalinutes%60;
+console.log(totalinutes + " minutes is equivalent to : " + x + " Houres and " + y1 + " minutes");
