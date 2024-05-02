@@ -1,8 +1,12 @@
 1; //
 arrayDestinations = ['New York', 'London', 'Paris'];
-arrayDestinations.map(function (arrayDestinations) {
+const newarrayDestinations = arrayDestinations.map(function (
+  arrayDestinations
+) {
   {
-    let newarrayDestinations = arrayDestinations;
-    console.log(newarrayDestinations);
+    return arrayDestinations;
   }
 });
+console.log(newarrayDestinations);
+
+//2
