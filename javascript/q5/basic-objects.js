@@ -27,11 +27,13 @@ console.log(destination['activities'][1]);
 console.log(destination.landmarks[1].name);
 console.log(destination['landmarks'][1]['name']);
 
-//3 not complete
+//3
 destination.yearVisited = 2025;
 destination.ratings.push(5);
 delete destination.country;
 console.log(destination);
+destination.landmarks[0].description = 'bla bla bla';
+destination['landmarks'][0]['description'] = 'bla bla bla';
 
 //4
 const destinations = [
