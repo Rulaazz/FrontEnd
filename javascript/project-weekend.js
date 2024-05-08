@@ -148,12 +148,18 @@ console.log(BusStation(Busarray));
 let index = 12;
 function Fibonacci(n) {
   let fibon = [0, 1];
+  if (n == 1) {
+    return 0;
+  } else if (n == 2) {
+    return fibon;
+  }
   for (let i = 2; i < n; i++) {
     fibon.push(fibon[i - 2] + fibon[i - 1]);
   }
   return fibon;
 }
-console.log(Fibonacci(index));
+let arrayfebo = Fibonacci(index);
+console.log(arrayfebo[arrayfebo.length - 1]);
 
 //4.2
 let index2 = 12;
