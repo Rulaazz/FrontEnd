@@ -113,7 +113,7 @@ const getFlightDurationInSeconds1 = (duration) => {
   const [hours, minutes] = duration.split('h ');
   return parseInt(hours) * 3600 + parseInt(minutes) * 60;
 };
-let sortDistination = console.log(sortDistination);
+//let sortDistination = console.log(sortDistination);
 
 //9
 const destinationflight = [
