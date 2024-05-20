@@ -23,7 +23,7 @@ const flightDestinations = flightobjects.filter(
 
 console.log(flightDestinations);
 
-//3 not complete
+//3
 const arrayflight = [
   { duration: '3h 30m' },
   { duration: '2h 45m' },
@@ -100,20 +100,6 @@ const newFlightObject = newFlight.map(function (b) {
   return b.flightNumber;
 });
 console.log(newFlightObject);
-
-//8 not complete
-
-const arrayflight1 = [
-  { duration: '3h 30m' },
-  { duration: '2h 45m' },
-  { duration: '1h 15m' },
-];
-
-const getFlightDurationInSeconds1 = (duration) => {
-  const [hours, minutes] = duration.split('h ');
-  return parseInt(hours) * 3600 + parseInt(minutes) * 60;
-};
-//let sortDistination = console.log(sortDistination);
 
 //9
 const destinationflight = [

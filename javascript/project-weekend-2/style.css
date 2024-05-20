@@ -1,0 +1,114 @@
+body {
+  text-align: center;
+  background-color: rgb(111, 103, 165);
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+main {
+  display: block;
+}
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.players {
+  width: 409px;
+  margin-left: 200px;
+  padding: 20px;
+  float: left;
+  background-color: rgb(91, 198, 215);
+}
+
+.player {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.player--1 {
+  margin-left: 0;
+}
+
+.dice1,
+.dice2,
+.score {
+  font-style: italic;
+  padding: 20px;
+  overflow: auto;
+  margin-bottom: 20px;
+  height: 10rem;
+}
+
+.score_current {
+  border-style: ridge;
+  width: 153px;
+  margin-left: 100px;
+  border-radius: 50px;
+  background-color: aquamarine;
+  float: left;
+  padding: 20px;
+  text-align: center;
+  margin-top: 100px;
+}
+.total-score {
+  width: 153px;
+  border-style: ridge;
+  border-radius: 50px;
+  margin-left: 100px;
+  background-color: rgb(14, 92, 66);
+  float: left;
+  padding: 20px;
+  text-align: center;
+}
+
+.score {
+  margin-bottom: 0;
+}
+.controls {
+  width: 200px;
+  margin-left: 200px;
+  float: left;
+  padding: 20px;
+  text-align: center;
+}
+button {
+  border-radius: 50px;
+  border-style: ridge;
+  background-color: white;
+}
+.btn_new_game:hover {
+  color: white;
+  background: rgb(131, 128, 128);
+}
+.btn_roll_dice:hover {
+  color: white;
+  background: rgb(131, 128, 128);
+}
+.btn_roll_dice:hover {
+  color: white;
+  background: rgb(131, 128, 128);
+}
+.btn-hold:hover {
+  color: white;
+  background: rgb(131, 128, 128);
+}
